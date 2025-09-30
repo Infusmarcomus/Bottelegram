@@ -1,0 +1,18 @@
+[project]
+name = "StoryBot"
+version = "0.1.0"
+description = "Telegram Bot with Django Admin"
+requires-python = ">=3.10"
+dependencies = [
+    "Django>=4.2",
+    "djangorestframework",
+    "psycopg2-binary",
+    "celery",
+    "redis",
+    "aiogram>=3.0",
+    "python-dotenv",
+]
+
+[build-system]
+requires = ["uv"]
+build-backend = "uv.build"
